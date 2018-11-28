@@ -1,8 +1,7 @@
 package Y_Exam;
 
 ////1번 문제
-//
-//
+
 //class SutdaDeck {
 //	final int CARD_NUM = 20;//카드의 크기는 20장을 넘어설 수 없다.
 //	SutdaCard[] cards = new SutdaCard[CARD_NUM]; // 20개의 방.
@@ -217,12 +216,37 @@ package Y_Exam;
 //따라서 System.out.println("x="+c.getX());를 통해 출력되는 값은 200입니다.
 
 
+//
+//[7-8] 다음 중 접근제어자를 접근범위가 넓은 것에서 좁은 것의 순으로 바르게 나열한
+//것은?
+//a. public-protected-(default)-private
+//b. public-(default)-protected-private
+//c. (default)-public-protected-private
+//d. private-protected-(default)-public
+
+//접근자의 범위 순서는 public[프로젝트] - protected[다른 패키지의 자손클레스 상속]- (default)[패키지] - private[클레스] 순이다.
+//즉 정답은 a이다.
+
+
+
+//[7-9] 다음 중 제어자 final을 붙일 수 있는 대상과 붙였을 때 그 의미를 적은 것이다.
+//옳지 않은 것은? (모두 고르시오)
+//a. 지역변수 - 값을 변경할 수 없다.  변경불가.
+//b. 클래스 - 상속을 통해 클래스에 새로운 멤버를 추가할 수 없다.   상속은 가능하나, 변경은 불가능하다. 
+//c. 메서드 - 오버로딩을 할 수 없다.  옳다. - final이 붙으면 재정의가 불가능하다.
+//d. 멤버변수 - 값을 변경할 수 없다.  변경불가.
+//[
 
 
 
 
-
-
+//[7-9] 다음 중 제어자 final을 붙일 수 있는 대상과 붙였을 때 그 의미를 적은 것이다.
+//옳지 않은 것은? (모두 고르시오)
+//a. 지역변수 - 값을 변경할 수 없다.  변경불가.
+//b. 클래스 - 상속을 통해 클래스에 새로운 멤버를 추가할 수 없다.   상속은 가능하나, 변경은 불가능하다. 
+//c. 메서드 - 오버로딩을 할 수 없다.  옳다. - final이 붙으면 재정의가 불가능하다.
+//d. 멤버변수 - 값을 변경할 수 없다.  변경불가.
+//[
 
 
 
